@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+<!-- 
+ <managed-bean>
+  <managed-bean-name>categoryMB</managed-bean-name>
+  <managed-bean-class>com.cognitive.newsreader.web.managedbeans.CategoryMB</managed-bean-class>
+  <managed-bean-scope>request</managed-bean-scope>
+  <managed-property>
+   <property-name>category</property-name>
+   <property-class>com.cognitive.newsreader.vo.CategoryVO</property-class>
+   <value/>
+  </managed-property>
+ </managed-bean>
+ -->
+ <!-- 
+ <navigation-rule>
+  <from-view-id>/config/categoryForm.xhtml</from-view-id>
+  <navigation-case>
+   <from-outcome>success</from-outcome>
+   <to-view-id>/config/categoryForm.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+  -->
+ <application/>
+</faces-config>
