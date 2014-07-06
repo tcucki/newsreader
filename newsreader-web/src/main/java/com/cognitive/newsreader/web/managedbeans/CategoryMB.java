@@ -5,7 +5,7 @@ package com.cognitive.newsreader.web.managedbeans;
 
 import java.io.Serializable;
 
-import javax.enterprise.context.SessionScoped;
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 import com.cognitive.newsreader.service.CategoryService;
@@ -16,7 +16,7 @@ import com.cognitive.newsreader.web.businessdelegate.CategoryBD;
  * @author tiago
  *
  */
-@SessionScoped
+@RequestScoped
 @Named
 public class CategoryMB implements Serializable {
 	
@@ -36,7 +36,7 @@ public class CategoryMB implements Serializable {
 	
 	public String save() {
 		
-		this.categoryService.insert(this.category);
+		this.categoryService.save(this.category);
 		return "success";
 	}
 	

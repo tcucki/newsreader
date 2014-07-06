@@ -68,5 +68,22 @@
 		<artifactId>newsreader-client</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>de.l3s.boilerpipe</groupId>
+		<artifactId>boilerpipe</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+	<dependency>
+		<groupId>xerces</groupId>
+		<artifactId>xerces</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>net.sourceforge.nekohtml</groupId>
+		<artifactId>nekohtml</artifactId>
+	</dependency>
   </dependencies>
 </project>
