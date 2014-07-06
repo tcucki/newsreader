@@ -104,9 +104,6 @@
         <dependent-module archiveName="commons-compress-1.4.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="slf4j-api-1.6.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="lucene-facet-3.6.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/lucene/lucene-facet/3.6.2/lucene-facet-3.6.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -183,6 +180,18 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="nekohtml-1.9.15.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rome-1.5.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/rometools/rome/1.5.0/rome-1.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rome-utils-1.5.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/rometools/rome-utils/1.5.0/rome-utils-1.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom-2.0.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/jdom/jdom/2.0.2/jdom-2.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.7.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="newsreader-web-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/newsreader-web/newsreader-web">
